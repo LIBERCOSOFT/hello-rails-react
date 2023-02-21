@@ -11,7 +11,12 @@ const Greetings = () => {
     dispatch(fetchGreeting());
   }, [dispatch]);
 
-  return <div>{greeting}</div>;
+  return (
+    <>
+      <h1>Random Messages:</h1>
+      <p>{greeting}</p>
+    </>
+  );
 };
 
 export default Greetings;
