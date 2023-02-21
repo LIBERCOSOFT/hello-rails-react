@@ -5,11 +5,9 @@ import Greetings from './Greetings';
 function App() {
   return (
     <div className='App'>
-      <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<Greetings />} />
-        </Routes>
-      </BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Greetings />} />
+      </Routes>
     </div>
   );
 }
